@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SK Design  offers innovative interior design, architecture, and renovation services with a modern, animated user experience.">
+  <title>SK Design</title>
+  <div class="logo">
+  <span class="logo-highlight">SK</span> Design Studio
+</div>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Swiper CSS -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper(".mySwiper", {
+    loop: true,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+
+
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-container">
+      <div class="logo">
+        <a href="#hero">
+          <h1>SK Design <span> •</span></h1>
+        </a>
+      </div>
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="#hero"><i class="fas fa-home nav-icon"></i> Home</a></li>
+          <li><a href="#services"><i class="fas fa-cog nav-icon"></i> Services</a></li>
+          <li><a href="#about"><i class="fas fa-info-circle nav-icon"></i> About</a></li>
+          <li><a href="#contact"><i class="fas fa-envelope nav-icon"></i> Contact</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu">
+        <i class="fas fa-bars menu-icon"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-content">
+
+        <h1 class="pulse-text">Welcome to SK Design<span> •</span></h1>
+        <p class="pulse-text">Crafting Beautiful Spaces with Creativity and Precision</p>
+        
+        <div class="cta-buttons">
+          <a href="#services" class="cta-primary shine-btn">Explore Services</a>
+          <a href="#contact" class="cta-secondary shine-btn">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section scroll-reveal" id="services">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-card card-anim" data-delay="0">
+          <i class="fas fa-paint-roller service-icon"></i>
+          <h3>Interior Design</h3>
+          <p>We create stunning interiors that blend style with functionality, animated to capture your attention.</p>
+          <ul class="service-list">
+            <li>Custom Interior Planning</li>
+            <li>Space Optimization</li>
+            <li>Color & Material Selection</li>
+          </ul>
+          <a href="#contact" class="service-cta shine-btn">Read More</a>
+        </div>
+        <div class="service-card card-anim" data-delay="200">
+          <i class="fas fa-drafting-compass service-icon"></i>
+          <h3>Architecture</h3>
+          <p>Our architects bring your dream spaces to life with precision and creativity, enhanced with dynamic transitions.</p>
+          <ul class="service-list">
+            <li>Architectural Design</li>
+            <li>3D Modeling & Rendering</li>
+            <li>Sustainable Design Solutions</li>
+          </ul>
+          <a href="#contact" class="service-cta shine-btn">Read More</a>
+        </div>
+        <div class="service-card card-anim" data-delay="400">
+          <i class="fas fa-tools service-icon"></i>
+          <h3>Renovation</h3>
+          <p>Transform your existing spaces into modern, inspiring environments with smooth animations.</p>
+          <ul class="service-list">
+            <li>Full Home Renovations</li>
+            <li>Kitchen & Bathroom Remodeling</li>
+            <li>Historic Restoration</li>
+          </ul>
+          <a href="#contact" class="service-cta shine-btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section scroll-reveal" id="about">
+      <div class="about-container">
+        <div class="about-text">
+          <h2>About SK Design </h2>
+          <p>At SK Design , we are passionate about creating spaces that inspire and reflect your unique style. Our team uses cutting-edge animations, like sliding cards and pulsating text, to make your browsing experience engaging.</p>
+          <p>Our designs come to life with smooth transitions, zoom-in effects on images, and interactive hover animations, ensuring every interaction feels dynamic and modern. We focus on quality, creativity, and sustainability.</p>
+          <a href="./about us.html" class="learn-more-btn shine-btn">Click here to know more</a>
+        </div>
+        <div class="about-image-container zoom-in">
+          <img src="https://media.istockphoto.com/id/1180357593/photo/his-mind-always-wanders-to-success.jpg?s=1024x1024&w=is&k=20&c=M7HoP3Z1ddmU9UnD0tC2eUMnWblb3vJpnKarkpmooXk=" alt="Interior Design" class="about-img">
+          <div class="image-overlay"></div>
+        </div>
+      </div>
+    </section>
+    
+<!--projecct section-->
+<section class="projects-section" id="projects">
+  <div class="container">
+    <h2 class="section-title">Our Projects</h2>
+    <p class="section-subtitle">A glimpse into our latest architectural and interior design works.</p>
+
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="https://images.pexels.com/photos/28196526/pexels-photo-28196526/free-photo-of-a-man-in-a-yellow-vest-holding-a-hard-hat.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Modern Home Design" />
+        <h3>Modern Home Design</h3>
+        <p>Minimalist architecture with a contemporary touch.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="https://images.pexels.com/photos/28196526/pexels-photo-28196526/free-photo-of-a-man-in-a-yellow-vest-holding-a-hard-hat.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Luxury Interior" />
+        <h3>Luxury Interior</h3>
+        <p>Elegant interiors designed with precision and creativity.</p>
+      </div>
+
+      <div class="project-card">
+        <img src="https://images.pexels.com/photos/28196526/pexels-photo-28196526/free-photo-of-a-man-in-a-yellow-vest-holding-a-hard-hat.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Commercial Space" />
+        <h3>Commercial Space</h3>
+        <p>Smart office layouts that boost productivity and aesthetics.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- projecct section-->
+    <!-- Contact Section -->
+    <section class="contact-section scroll-reveal" id="contact">
+      <div class="contact-container">
+        <h2>Get in Touch</h2>
+        <p>Let’s create something beautiful together with our animated form!</p>
+        <form class="contact-form"onsubmit="sendEmail(); return false;">
+          <div class="form-group">
+            <div class="input-icon">
+              <i class="fas fa-envelope icon"></i>
+              <input type="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-icon">
+              <i class="fas fa-list icon"></i>
+              <select required>
+                <option value="">Select Service</option>
+                <option value="interior">Interior Design</option>
+                <option value="architecture">Architecture</option>
+                <option value="renovation">Renovation</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-icon">
+              <i class="fas fa-comment icon"></i>
+              <textarea placeholder="Tell us about your project"required></textarea>
+            </div>
+          </div>
+          <button type="submit" class="submit-btn shine-btn">Submit</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="footer scroll-reveal">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3 class="footer-logo">SK Design <span> •</span></h3>
+        <p class="company-description">Crafting beautiful spaces with creativity, precision, and engaging animations.</p>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="bounce-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="bounce-icon"><i class="fab fa-twitter"></i></a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="bounce-icon"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="bounce-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="#services">Interior Design</a></li>
+          <li><a href="#services">Architecture</a></li>
+          <li><a href="#services">Renovation</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Us</h4>
+        <div class="contact-info">
+          <p><i class="fas fa-phone"></i> +1 (555) 987-6543</p>
+          <p><i class="fas fa-envelope"></i> contact@skdesigns.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> 456 Design Lane, Creative City</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 SK Design. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="/privacy">Privacy Policy</a>
+        <a href="/terms">Terms of Service</a>
+        
+
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script>
+    // Mobile menu toggle
+    document.querySelector('.mobile-menu').addEventListener('click', () => {
+      document.querySelector('.nav-menu').classList.toggle('active');
+      document.querySelector('.menu-icon').classList.toggle('active');
+      
+    });
+
+    // Smooth scrolling
+    document.querySelectorAll('.nav-menu a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const sectionId = link.getAttribute('href').substring(1);
+        const section = document.getElementById(sectionId);
+        if (section) {
+          section.scrollIntoView({ behavior: 'smooth' });
+          document.querySelector('.nav-menu').classList.remove('active');
+          document.querySelector('.menu-icon').classList.remove('active');
+        }
+      });
+    });
+
+    // Background image rotation for hero section
+    const heroSection = document.querySelector('.hero-section');
+    const backgroundImages = [
+      'url("https://via.placeholder.com/1920x1080?text=Modern+Living+Room")',
+      'url("https://via.placeholder.com/1920x1080?text=Architectural+Design")',
+      'url("https://via.placeholder.com/1920x1080?text=Renovated+Kitchen")'
+    ];
+    let currentImageIndex = 0;
+
+    function changeBackgroundImage() {
+      heroSection.style.backgroundImage = backgroundImages[currentImageIndex];
+      currentImageIndex = (currentImageIndex + 1) % backgroundImages.length;
+    }
+
+    setInterval(changeBackgroundImage, 10000);
+    changeBackgroundImage();
+
+    // Scroll-triggered animations
+    const revealElements = document.querySelectorAll('.scroll-reveal');
+    const cardElements = document.querySelectorAll('.card-anim');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          if (entry.target.classList.contains('card-anim')) {
+            const delay = entry.target.getAttribute('data-delay') || 0;
+            entry.target.style.transitionDelay = `${delay}ms`;
+          }
+        }
+      });
+    }, { threshold: 0.2 });
+
+    revealElements.forEach(el => observer.observe(el));
+    cardElements.forEach(el => observer.observe(el));
+//   
+//     function sendEmail() {
+//        Email.send({
+//     Host : "s1.maildns.net",
+//     Username : "username",
+//     Password : "password",
+//     To : 'them@website.com',
+//     From : "you@isp.com",
+//     Subject : "This is the subject",
+//     Body : "And this is the body"
+// }).then(
+//   message => alert(message)
+// );
+//     }
+<form id="contactForm" action="/submit-form" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" placeholder="Your Message" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
+    function sendEmail() {
+      const form = document.getElementById('contactForm');
+      const formData = new FormData(form);
+      
+      fetch('/submit-form', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          alert('Email sent successfully!');
+          form.reset();
+        } else {
+          alert('Error sending email. Please try again.');
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        alert('Error sending email. Please try again.');
+       
+        
+      });
+    }
+
+
+    
+  </script>
+</body>
+</html>
